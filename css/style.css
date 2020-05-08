@@ -4,25 +4,39 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: "Righteous", cursive;
 }
 
 body {
-  background-color: #7678ED;
+  background-color: #7678ed;
 }
 
 /* NAVBAR */
 
 #navbar {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 60px;
-    background-color: #3D348B;
-    color: #F5EFFF;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
-    border-bottom: 2px solid #000501;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #3d348b;
+  color: #f5efff;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid #000501;
+}
+
+#navbar_intestation {
+  position: relative;
+  left: 5%;
+}
+
+#logo_boolean {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  position: relative;
+  right: 20%;
 }
 
 /* CONTAINER */
@@ -35,7 +49,7 @@ body {
 
 .block {
   width: 100%;
-  padding-bottom: 1%;
+  margin-bottom: 5px;
 }
 
 /* PRODUCT ON SALE | IMG | DISCOUNT */
@@ -46,13 +60,17 @@ body {
   position: relative;
   display: inline-block;
   background-color: white;
-  /* border: 2px solid #000000; */
+  border: 2px solid #000501;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 img {
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
+
+/* DISCOUNT */
 
 .discount {
   position: absolute;
@@ -61,25 +79,23 @@ img {
   border-radius: 50%;
 }
 
-/* DISCOUNT */
-
 .green {
-  background-color: #C6EBBE;
+  background-color: #c6ebbe;
 }
 
 .red {
-  background-color: #FF220C;
+  background-color: #ff220c;
 }
 
-/* HEART */
+/* HEART  */
 
 .heart {
   position: absolute;
   text-align: center;
   width: 100%;
   bottom: 1%;
-  color: #FF220C;
-  font-size: 50px;
+  color: #ff220c;
+  font-size: 40px;
   display: none;
 }
 
