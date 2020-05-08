@@ -37,6 +37,33 @@ body {
   vertical-align: middle;
 }
 
+/* LINK LIST */
+
+#nav_links {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul li {
+  vertical-align: middle;
+  display: inline-block;
+  color: #f5efff;
+  text-decoration: none;
+}
+
+ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #f5efff;
+  margin: 5px;
+  height: 100%;
+}
+
+a:hover {
+  color: #7678ed;
+  background-color: #000501 ;
+}
+
 /* CONTAINER */
 
 #container {
@@ -101,4 +128,25 @@ img {
 .product:hover .heart {
   display: block;
   cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer {
+    width: 100%;
+    background-color: #3d348b;
+    color: #f5efff;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #000501;
+    padding: 1%;
+  }
+
+  .btn {
+    color:#7678ed;
+    background-color: #000501;
+  }
+
+#powered {
+  font-size: 10px;
 }
